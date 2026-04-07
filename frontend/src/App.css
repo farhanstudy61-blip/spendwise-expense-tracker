@@ -1,0 +1,55 @@
+.dashboard{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+.dashboard-layout{
+  display:flex;
+  gap:40px;
+  margin-top:20px;
+  align-items:flex-start;
+}
+
+.left-panel{
+  width:350px;
+}
+
+.right-panel{
+  flex:1;
+}
+
+.chart-box{
+  width:250px;
+  height:250px;
+}
+
+.expense-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:8px 0;
+  border-bottom:1px solid #ddd;
+  font-size:16px;
+}
+
+.expense-left{
+  font-weight:500;
+}
+
+.expense-right{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+button{
+  padding:4px 10px;
+  border:1px solid #999;
+  background:#f5f5f5;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#eaeaea;
+}
